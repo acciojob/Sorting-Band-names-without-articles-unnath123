@@ -14,13 +14,14 @@ var compare=function(a,b){
 };
 
 function removearticle(str){
-	let ans=arr.split(" ");
+	let ans=str.split(" ");
 	if(ans.length<1){
 		return str;
 	}
 	if(ans[0]=='a' || ans[0]=='the' || ans[0]=='an'){
 		return ans.slice(1).join(" "); 
 	}
+	return ans;
 }
 
 let arr=['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal'];
