@@ -4,8 +4,8 @@ var compare=function(a,b){
 	let str1=a.toLowerCase();
 	let str1=b.toLowerCase();
 	
-	let str1=removearticle(str1);
-	let str2=removearticle(str2)
+	str1=removearticle(str1);
+	str2=removearticle(str2)
 
 	if(str1>str2)
 		return 1;
