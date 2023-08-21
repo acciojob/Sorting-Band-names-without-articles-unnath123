@@ -2,7 +2,7 @@
 
 var compare=function(a,b){
 	let str1=a.toLowerCase();
-	let str1=b.toLowerCase();
+	let str2=b.toLowerCase();
 	
 	str1=removearticle(str1);
 	str2=removearticle(str2)
