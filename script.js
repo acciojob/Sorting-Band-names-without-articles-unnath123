@@ -9,7 +9,7 @@ var compare=function(a,b){
 
 	if(str1>str2)
 		return 1;
-	else if(str2>str1)
+	else
 		return -1;
 };
 
